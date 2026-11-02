@@ -39,13 +39,13 @@
     banner.id = 'cookie-banner';
     banner.innerHTML =
       '<div class="cc-inner">' +
-        '<div class="cc-text">' +
-          '<strong>' + t.title + '</strong>' +
-          '<p>' + t.body + '</p>' +
-        '</div>' +
-        '<div class="cc-actions">' +
-          '<button id="cc-accept">' + t.btn + '</button>' +
-        '</div>' +
+      '<div class="cc-text">' +
+      '<strong>' + t.title + '</strong>' +
+      '<p>' + t.body + '</p>' +
+      '</div>' +
+      '<div class="cc-actions">' +
+      '<button id="cc-accept">' + t.btn + '</button>' +
+      '</div>' +
       '</div>';
 
     document.body.appendChild(banner);
